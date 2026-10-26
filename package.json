@@ -1,0 +1,27 @@
+{
+  "name": "cyberpulse-security-platform",
+  "version": "4.0.0",
+  "description": "CyberPulse - Automated Cybersecurity Health Checkup, Real-Time Audit, & Tamper-Evident Certificate Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node tests/test_scanner.js"
+  },
+  "keywords": [
+    "cybersecurity",
+    "vulnerability-scanner",
+    "security-audit",
+    "nist-sp-800-53",
+    "owasp",
+    "wireshark",
+    "certificates",
+    "dmarc",
+    "hsts"
+  ],
+  "author": "CyberPulse Team",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
